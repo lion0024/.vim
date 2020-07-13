@@ -1,13 +1,15 @@
 # 基本は github.com のレポジトリーを指定するだけ
 [[plugins]]
+# プラグイン管理
 repo = 'Shougo/dein.vim'
+# vim下部のモード表記
 repo = 'itchyny/lightline.vim'
+# Google翻訳
 repo = 'skanehira/translate.vim'
-repo = 'Shougo/neocomplete.vim'
-repo = 'Shougo/neosnippet-snippets'
-repo = 'Shougo/neosnippet'
-repo = 'bronson/vim-trailing-whitespace'
+# インデントの可視化
 repo = 'Yggdroot/indentLine'
+
+repo = 'mattn/googletranslate-vim'
 
 # git clone 後、実行すべきコマンドがある場合はこんな感じ
 [[plugins]]
